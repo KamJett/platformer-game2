@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "20e5421f-d4f3-4927-b2e4-be93afbac4af",
+            "Value": {
+                "id": "a94e5f43-df91-42fb-8f34-e63482287c97",
+                "resourcePath": "objects\\o_solid\\o_solid.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2d430e26-80e5-4036-81bb-71ed482fbc33",
             "Value": {
                 "id": "25d55f8a-0045-4519-9d91-77ed49433c51",
