@@ -7,13 +7,15 @@ if hinput != 0 {
 } else {
 	hspeed_ = lerp(hspeed_, 0, .3);
 }
+
 if !place_meeting(x, y+1, o_solid) {
 	vspeed_ += gravity_;
 } else {
 	if keyboard_check_pressed(vk_up) {
-		vspeed_ = -16;
+		vspeed_ = jump_height_;
 	}
 }
+
 if place_meeting(x+hspeed_, y, o_solid) {
 	while !place_meeting(x+sign(hspeed_), y, o_solid) {
 		x += sign(hspeed_);
