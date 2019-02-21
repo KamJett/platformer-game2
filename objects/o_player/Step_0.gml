@@ -22,13 +22,16 @@ if place_meeting(x+hspeed_, y, o_solid) {
 	}
 	hspeed_ = 0;
 }
-
 x += hspeed_;
 
 if place_meeting(x, y+vspeed_, o_solid) {
 	while !place_meeting(x, y+sign(vspeed_), o_solid) {
 		y += sign(vspeed_);
 	}
-	vspeed_ =0;
+	vspeed_ = 0;
 }
 y+= vspeed_;
+
+// Move back to normal scale
+x_scale_ = lerp(x_scale_, image_xscale, .05);
+y_scale_ = lerp(y_scale_, image_yscale, .2);
