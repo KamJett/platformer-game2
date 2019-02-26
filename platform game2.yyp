@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "12acd859-c0e1-43e1-a321-2bf3962ab4fc",
+            "Value": {
+                "id": "72196948-4f72-4917-bdee-340e917a0686",
+                "resourcePath": "scripts\\move\\move.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1d11e50f-c944-4795-a7f9-2ec6f4ed0685",
             "Value": {
                 "id": "553c40a5-e6dc-4f05-91e1-8b3696424072",
@@ -92,6 +100,22 @@
                 "id": "398c09d2-6e74-476f-9724-4b41d948181e",
                 "resourcePath": "sprites\\s_bullet\\s_bullet.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "57c92a84-e657-4d40-a5fb-63484593f0f1",
+            "Value": {
+                "id": "024b3db1-8e0e-4dba-8259-475560683f46",
+                "resourcePath": "sprites\\s_enemy\\s_enemy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "59b5ddb8-662d-42fd-a9ad-33e4cbf28771",
+            "Value": {
+                "id": "a2dbb84c-a36f-4092-9cc3-fad6353907aa",
+                "resourcePath": "objects\\o_enemy\\o_enemy.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -232,7 +256,7 @@
         }
     ],
     "script_order": [
-        
+        "12acd859-c0e1-43e1-a321-2bf3962ab4fc"
     ],
     "tutorial": ""
 }
