@@ -1,30 +1,3 @@
 /// @description Move towards the player
-if distance_to_object(o_player) > 48 {
-	chase = true;
-	attack_ = false;
-} else {
-	attack_ = true;
-	chase_ = false;	
-}
+event_user(state_);
 
-if chase == true {
-	//move fore
-	var dir = point_direction(x, y, o_player.x, o_player.y);
-	hspeed_ = lengthdir_x(speed_, dir);
-	vspeed_ = lengthdir_y(speed_, dir);
-	move();
-
-	//push force
-	move_push();
-	if !place_meeting(x, y, o_enemy) {
-		hspeed_push_ = lerp(hspeed_push_, 0, .1);
-		vspeed_push_ = lerp(vspeed_push_, 0, .1);
-	}
-
-	// Death
-	if health_ <= 0 {
-		instance_destroy();
-	}	
-} else if attack_ == true {
-
-}
